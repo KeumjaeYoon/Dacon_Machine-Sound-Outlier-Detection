@@ -21,8 +21,9 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 ## Data preprocessing
 
 - Mel spectrogram of Normal Data
+![image]()
 
-<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993717-9396ebd6-cb57-43e7-bd40-04450657059a.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216073463-58eee024-6253-40af-b858-6f0579a00989.png>
 <p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993285-7c4943f0-ecea-4ec5-9f0f-e776ca929207.png>
 <p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993732-87605dc6-e875-456f-8068-220f105d4bdc.png>
 
