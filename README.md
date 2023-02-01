@@ -42,6 +42,8 @@ This dataset is made available by Hitachi, Ltd. under a Creative Commons Attribu
 
 [2] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” in Proc. 4th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE), 2019.
 
+_____________________________
+    
 ## Approach
 
 - Use mean vector of Mel spectrogram and MFCC as input
