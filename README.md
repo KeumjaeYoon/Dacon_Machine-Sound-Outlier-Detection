@@ -24,7 +24,7 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 
 <p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216074210-a5bc6e18-d6d2-4e6e-888e-f67d3ab2b21a.png>
 
-- Data distribution by Fan type
+- __Data distribution by Fan type__
   
 <p align="center"><img width="800" alt="image" src=https://user-images.githubusercontent.com/76990589/216077039-68764e1b-80af-44e1-9a6f-ea5d34745bbf.png>
 
@@ -37,3 +37,6 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 
 ## Result
 
+__0 : Normal, 1: Outlier__
+  
+<p align="center"><img width="800" alt="image" src=https://user-images.githubusercontent.com/76990589/216079962-7addbea0-fc8f-4f42-9a1b-2722db58dbbc.png>
