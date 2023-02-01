@@ -21,7 +21,7 @@ Determining whether a fan is out of order through unsupervised learning from nor
     - SAMPLE_PATH : Sound sample file path
     - FAN_TYPE : Type of fan (0, 2)
     - LABEL : Fan failure (0: Normal, 1: Failure)
-    - _All training data have only normal samples_
+    - __All training data have only normal samples__
 
 
 - test.csv [File]
