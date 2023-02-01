@@ -1,8 +1,45 @@
 # Dacon_Machine-Sound-Outlier-Detection
-Outlier detection through mechanical sound
+__Outlier detection through mechanical sound__
+![image](https://user-images.githubusercontent.com/76990589/216082423-2403ebcd-8dca-46da-8d0e-075366cc59df.png)
 
 ## Intro
 Determining whether a fan is out of order through unsupervised learning from normal data __(Unsupervised Anomaly Detection)__
+
+## Dataset
+
+- train [폴더]
+    - 총 1279개 팬(FAN) 소리 샘플
+    - TRAIN_0000.wav ~ TRAIN_1278.wav
+
+
+- test [폴더]
+    - 추론을 위한 팬(FAN) 소리 샘플
+    - TEST_0000.wav ~ TEST_1513.wav
+
+
+- train.csv [파일]
+    - SAMPLE_ID : 샘플 별 고유 ID
+    - SAMPLE_PATH : 음향 샘플 파일 경로
+    - FAN_TYPE : 팬(FAN)의 모델 종류 (0, 2 존재)
+    - LABEL : 팬(FAN) 고장 여부 (0 : 정상, 1 : 고장)
+    - 학습 데이터는 모두 정상 샘플만 존재
+
+
+- test.csv [파일]
+    - SAMPLE_ID : 샘플 별 고유 ID
+    - SAMPLE_PATH : 음향 샘플 파일 경로
+    - FAN_TYPE : 팬(FAN)의 모델 종류 (0, 2 존재)
+
+
+- sample_submission.csv [파일] - 제출 양식
+    - SAMPLE_ID : 샘플 별 고유 ID
+    - LABEL : 예측한 팬(FAN) 고장 여부 (0 : 정상, 1 : 고장)
+
+This dataset is made available by Hitachi, Ltd. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
+[1] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” arXiv preprint arXiv:1909.09347, 2019.
+
+[2] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” in Proc. 4th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE), 2019.
 
 ## Approach
 
