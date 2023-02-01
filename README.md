@@ -11,9 +11,11 @@ Determining whether a fan is out of order through unsupervised learning from nor
 - Using TSNE to identify differences in data distribution according to type
 
 - __ABOD__
+
 It measures the outlierness of a data point by the angles between the data point and its nearest neighbors. The idea behind ABOD is that outliers will have significantly different angles to their nearest neighbors compared to non-outlier data points, and thus can be detected based on these angles. 
 
 - __Deep-SVDD__
+
 Unlike Kernel-based SVDD, it learns a feature space based on deep learning and finds an optimal sphere (with a small radius) surrounding normal data in that feature space. Then, outliers are detected based on the boundary
 
 ## Data preprocessing : Mel-spectrogram, MFCC
