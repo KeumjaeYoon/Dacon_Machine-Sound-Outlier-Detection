@@ -6,7 +6,7 @@ Determining whether a fan is out of order through unsupervised learning from nor
 
 ## Approach
 
-- Use Mel spectrogram, MFCC as inputs
+- Use mean vector of Mel spectrogram and MFCC as input
 
 - Using TSNE to identify differences in data distribution according to type
 
@@ -27,3 +27,4 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 - Deep-SVDD : [Deep One-Class Classification](http://proceedings.mlr.press/v80/ruff18a/ruff18a.pdf)
 
 ## Result
+
