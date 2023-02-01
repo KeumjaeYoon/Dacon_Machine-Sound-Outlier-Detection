@@ -22,7 +22,8 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 
 - Mel spectrogram and MFCC of Normal Data
 
-<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216073463-58eee024-6253-40af-b858-6f0579a00989.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216074210-a5bc6e18-d6d2-4e6e-888e-f67d3ab2b21a.png>
+
 
 ## Models
 
