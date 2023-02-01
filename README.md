@@ -26,8 +26,9 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 
 - Data distribution by Fan type
   
-<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216075043-ca81841b-f7cb-434a-992e-1dafdf1ad76c.png>
+<p align="center"><img width="800" alt="image" src=https://user-images.githubusercontent.com/76990589/216077039-68764e1b-80af-44e1-9a6f-ea5d34745bbf.png>
 
+  
 ## Models
 
 - Angle Based Outlier Detection (ABOD) : [Angle-Based Outlier Detection in High-dimensional Data](https://www.dbs.ifi.lmu.de/~zimek/publications/KDD2008/KDD08-ABOD.pdf)
