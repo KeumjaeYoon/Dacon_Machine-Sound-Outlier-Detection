@@ -18,9 +18,13 @@ It measures the outlierness of a data point by the angles between the data point
 
 Unlike Kernel-based SVDD, it learns a feature space based on deep learning and finds an optimal sphere (with a small radius) surrounding normal data in that feature space. Then, outliers are detected based on the boundary
 
-## Data preprocessing : Mel-spectrogram, MFCC
+## Data preprocessing
 
-## Model : Ensemble of Statistical method and Deep Neural Network
+- Mel spectrogram of Normal Data
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993285-7c4943f0-ecea-4ec5-9f0f-e776ca929207.png>
+
+
+## Models
 
 - Angle Based Outlier Detection (ABOD) : [Angle-Based Outlier Detection in High-dimensional Data](https://www.dbs.ifi.lmu.de/~zimek/publications/KDD2008/KDD08-ABOD.pdf)
 
