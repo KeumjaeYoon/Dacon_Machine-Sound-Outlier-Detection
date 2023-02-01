@@ -21,8 +21,15 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 ## Data preprocessing
 
 - Mel spectrogram of Normal Data
-<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993285-7c4943f0-ecea-4ec5-9f0f-e776ca929207.png>
 
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993717-9396ebd6-cb57-43e7-bd40-04450657059a.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993285-7c4943f0-ecea-4ec5-9f0f-e776ca929207.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215993732-87605dc6-e875-456f-8068-220f105d4bdc.png>
+
+- MFCC of Normal Data
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215995667-3507754d-44c0-46c2-b5c2-f6bf9487d38e.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215995729-c29c019e-d1a0-48f9-8532-a7dee91535c7.png>
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/215995777-4da67d6a-e4bf-432f-b73d-19ab6e7fb890.png>
 
 ## Models
 
