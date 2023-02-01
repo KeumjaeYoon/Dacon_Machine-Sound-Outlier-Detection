@@ -34,6 +34,8 @@ Determining whether a fan is out of order through unsupervised learning from nor
     - SAMPLE_ID : Unique ID per sample
     - LABEL : Predicted fan failure (0: normal, 1: failure)
 
+_____________________________
+    
 This dataset is made available by Hitachi, Ltd. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
 [1] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” arXiv preprint arXiv:1909.09347, 2019.
@@ -77,5 +79,5 @@ __0 : Normal, 1: Outlier__
   
 <p align="center"><img width="800" alt="image" src=https://user-images.githubusercontent.com/76990589/216079962-7addbea0-fc8f-4f42-9a1b-2722db58dbbc.png>
 
-_PUBLIC SCORE  : 0.99113_
-_PRIVATE SCORE : 0.99339_
+__PUBLIC SCORE  : 0.99113__
+__PRIVATE SCORE : 0.99339__
