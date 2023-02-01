@@ -1,5 +1,4 @@
-# Dacon_Machine-Sound-Outlier-Detection
-__Outlier detection through mechanical sound__
+# Dacon <Outlier detection through mechanical sound>
 ![image](https://user-images.githubusercontent.com/76990589/216082423-2403ebcd-8dca-46da-8d0e-075366cc59df.png)
 
 ## Intro
@@ -7,33 +6,33 @@ Determining whether a fan is out of order through unsupervised learning from nor
 
 ## Dataset
 
-- train [폴더]
-    - 총 1279개 팬(FAN) 소리 샘플
+- train [Folder]
+    - A total of 1279 fan sound samples
     - TRAIN_0000.wav ~ TRAIN_1278.wav
 
 
-- test [폴더]
-    - 추론을 위한 팬(FAN) 소리 샘플
+- test [Folder]
+    - Fan Sound Samples for Inference
     - TEST_0000.wav ~ TEST_1513.wav
 
 
-- train.csv [파일]
-    - SAMPLE_ID : 샘플 별 고유 ID
-    - SAMPLE_PATH : 음향 샘플 파일 경로
-    - FAN_TYPE : 팬(FAN)의 모델 종류 (0, 2 존재)
-    - LABEL : 팬(FAN) 고장 여부 (0 : 정상, 1 : 고장)
-    - 학습 데이터는 모두 정상 샘플만 존재
+- train.csv [File]
+    - SAMPLE_ID : Unique ID per sample
+    - SAMPLE_PATH : Sound sample file path
+    - FAN_TYPE : Type of fan (0, 2)
+    - LABEL : Fan failure (0: Normal, 1: Failure)
+    - _All training data have only normal samples_
 
 
-- test.csv [파일]
-    - SAMPLE_ID : 샘플 별 고유 ID
-    - SAMPLE_PATH : 음향 샘플 파일 경로
-    - FAN_TYPE : 팬(FAN)의 모델 종류 (0, 2 존재)
+- test.csv [File]
+    - SAMPLE_ID : Unique ID per sample
+    - SAMPLE_PATH : Sound sample file path
+    - FAN_TYPE : Type of fan (0, 2)
 
 
-- sample_submission.csv [파일] - 제출 양식
-    - SAMPLE_ID : 샘플 별 고유 ID
-    - LABEL : 예측한 팬(FAN) 고장 여부 (0 : 정상, 1 : 고장)
+- sample_submission.csv [File]
+    - SAMPLE_ID : Unique ID per sample
+    - LABEL : Predicted fan failure (0: normal, 1: failure)
 
 This dataset is made available by Hitachi, Ltd. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
@@ -77,3 +76,6 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 __0 : Normal, 1: Outlier__
   
 <p align="center"><img width="800" alt="image" src=https://user-images.githubusercontent.com/76990589/216079962-7addbea0-fc8f-4f42-9a1b-2722db58dbbc.png>
+
+_PUBLIC SCORE  : 0.99113_
+_PRIVATE SCORE : 0.99339_
