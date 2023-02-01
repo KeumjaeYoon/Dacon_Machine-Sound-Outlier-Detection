@@ -20,10 +20,13 @@ Unlike Kernel-based SVDD, it learns a feature space based on deep learning and f
 
 ## Data preprocessing
 
-- Mel spectrogram and MFCC of Normal Data
+- __Mel spectrogram and MFCC__ of Normal Data
 
 <p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216074210-a5bc6e18-d6d2-4e6e-888e-f67d3ab2b21a.png>
 
+- Data distribution by Fan type
+  
+<p align="center"><img width="1200" alt="image" src=https://user-images.githubusercontent.com/76990589/216075043-ca81841b-f7cb-434a-992e-1dafdf1ad76c.png>
 
 ## Models
 
